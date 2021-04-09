@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Heebo|Ubuntu:700&display=swap);
 :root {
-    --hoverCol: #659cf1;
+    --hoverCol: #ff0000;
     --hoverCol2: rgb(227, 234, 243);
     --backCol: white;
-    --dackBackCol: rgb(70 71 79 / 71%);
+    --dackBackCol: rgb(0 0 0 / 71%)
     --mainFont: 'Heebo', sans-serif;
     --secFont: 'Ubuntu', sans-serif;
 }
@@ -39,7 +39,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #3d4149;
+    background: #000000;
 }
 ::-webkit-scrollbar-track {
     background: #26282e;
@@ -62,8 +62,8 @@ img {
 
 .menu {
     animation: fromTop .8s cubic-bezier(.58, -.11, .54, 1.29);
-    border-bottom: 1px solid rgba(114, 118, 172, .5);
-    border-bottom: 1px solid rgb(114 124 172 / 50%);
+    border-bottom: 1px solid rgb(255 0 0 / 50%);
+    border-bottom: 1px solid rgb(255 0 0 / 50%);
     background: #26282e00;
     padding-top: 10px;
     box-shadow: 0 0 30px 0 #00000094;
@@ -92,8 +92,8 @@ img {
 }
 
 .lnk:hover::after {
-    border: 1px solid #659df1;
-    border: 1px solid #727bac;
+    border: 1px solid #ff0000;
+    border: 1px solid #ff0000;
 }
 
 .menuCont {
